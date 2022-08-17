@@ -11,7 +11,7 @@ function getSignatureKey(key, dateStamp, regionName, serviceName) {
 addHandler("transform", (request, context) => {
   const sig = getSignatureKey("KEYEXAMPLE", "20150830", "us-east-1", "iam")
 
-  console.log(sig)
+  console.log(sig.toString(crypto.enc.Base64))
   // Transform the request object then return it.
   return request
 })
