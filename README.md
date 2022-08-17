@@ -12,3 +12,5 @@ This repo shows how to do that with Crypto-js.
 4. Modify the handler to do what you need it to
 5. Copy/paste the contents of the bundle in `dist/main.js` to your transformation
 6. Run the transformation to test that it works
+
+[video](https://www.loom.com/share/86c7e6beea5844c9af52624cd9226a88) here!
